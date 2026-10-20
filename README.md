@@ -60,4 +60,7 @@ You can pin it to your taskbar or Start menu for a one-click toggle whenever you
 ## Notes
 
 - Switching to Duplicate may rearrange windows that were on a second monitor (this is normal Windows behavior, not something this app controls). Windows don't automatically snap back to their previous position when you switch back to Extend.
-- `MessageBoxTimeoutW`, used for the self-closing confirmation popup, is an undocumented but long-stable Windows API (present since Windows 2000). If it's ever unavailable, the app silently skips the popup — the display mode still gets switched.
+- `MessageBoxTimeoutW`, used for the self-closing confirmation popup, is an undocumented but long-stable Windows API (present since Windows 2000). If it's ever unavailable, the app silently skips the popup — the display mode still
+- ## License
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.gets switched.
+
